@@ -3,10 +3,11 @@ from rest_framework.response import Response
 
 @api_view(['GET'])
 def api_root(request, format=None):
+    base_url = 'https://humble-waddle-5g554wrgwrg424rj4-8000.app.github.dev/'
     return Response({
-        'users': 'URL for users',
-        'teams': 'URL for teams',
-        'activity': 'URL for activity',
-        'leaderboard': 'URL for leaderboard',
-        'workouts': 'URL for workouts',
+        'users': base_url + 'api/users/',
+        'teams': base_url + 'api/teams/',
+        'activities': base_url + 'api/activities/',
+        'leaderboard': base_url + 'api/leaderboard/',
+        'workouts': base_url + 'api/workouts/',
     })

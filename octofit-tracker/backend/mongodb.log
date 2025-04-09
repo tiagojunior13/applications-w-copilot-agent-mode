@@ -177,3 +177,13 @@
 2025-04-09T01:12:21.030+0000 I STORAGE  [conn10] createCollection: octofit_db.octofit_tracker_workout with generated UUID: dbe963cf-a9b5-4810-932e-1f400a3bcdcb
 2025-04-09T01:12:21.038+0000 I NETWORK  [conn9] end connection 127.0.0.1:52830 (2 connections now open)
 2025-04-09T01:12:21.038+0000 I NETWORK  [conn10] end connection 127.0.0.1:52844 (1 connection now open)
+2025-04-09T01:17:35.077+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:59578 #11 (2 connections now open)
+2025-04-09T01:17:35.077+0000 I NETWORK  [conn11] received client metadata from 127.0.0.1:59578 conn11: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-09T01:17:35.078+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:59582 #12 (3 connections now open)
+2025-04-09T01:17:35.078+0000 I NETWORK  [conn12] received client metadata from 127.0.0.1:59582 conn12: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-09T01:19:08.647+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:54266 #13 (4 connections now open)
+2025-04-09T01:19:08.648+0000 I NETWORK  [conn13] received client metadata from 127.0.0.1:54266 conn13: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-09T01:19:08.649+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:54274 #14 (5 connections now open)
+2025-04-09T01:19:08.649+0000 I NETWORK  [conn14] received client metadata from 127.0.0.1:54274 conn14: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-09T01:19:08.675+0000 I NETWORK  [conn13] end connection 127.0.0.1:54266 (3 connections now open)
+2025-04-09T01:19:08.675+0000 I NETWORK  [conn14] end connection 127.0.0.1:54274 (4 connections now open)
